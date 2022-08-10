@@ -1,0 +1,7 @@
+<div mat-dialog-content>
+  <p>Do You want to Delete {{data.name}} ?</p>
+</div>
+<div mat-dialog-actions>
+  <button class="btn btn-primary m-2" (click)="onNoClick()">No Thanks</button>
+  <button class="btn btn-danger" (click)="deletConfiremd()" cdkFocusInitial>Ok</button>
+</div>
